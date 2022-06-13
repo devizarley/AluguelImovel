@@ -1,0 +1,54 @@
+.containerSection07 {
+    max-width: 1025px;
+    margin: auto;
+    display: flex;
+    height: 820px;
+    padding: 140px 10px;
+}
+.containerSection07 h1{
+    color: #2B2C32;
+    font-family: 'Krona One', sans-serif;
+    font-size: 48px;
+}
+.containerSection07 h3 {
+    font-family: 'Krona One', sans-serif;
+    color: #2B2C32;
+    margin: 15px 0px;
+}
+.containerSection07 p{
+    color: #2B2C32;
+    filter: opacity(70%);
+    font-size: 14px;
+    letter-spacing: 1,6px;
+    font-family: 'Jost', sans-serif;
+}
+
+.section07Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left07Top {
+    width: 390px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.left07Bottom {
+    width: 290px;
+    height: 115px;
+}
+.section07Right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right07Card.top.left,
+.right07Card.bottom.left{
+    margin-right: 25px;
+}
+.right07Card.bottom {
+    margin-top: 70px;
+}

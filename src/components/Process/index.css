@@ -1,0 +1,51 @@
+section.section06 {
+    background-color: #D9DFE5;
+    padding: 140px 0;
+}
+.section06 h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 48px;
+    color: #2B2C32;
+}
+.section06 h3 {
+    color: #2B2C32;
+    font-family: 'Krona One', sans-serif;
+    font-size: 16px;
+}
+.section06 h6 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 100px;
+    color: #2B2C32;
+    width: 185px;
+    margin-right: 25px;
+    text-align: end;
+}
+.section06 p {
+    color: #2B2C32;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    filter: opacity(80%);
+}
+.containerSection06{
+    max-width: 1015px;
+    margin: auto;
+    display: flex;
+}
+.section06Left {
+    display: flex;
+    flex-direction: column;
+    height: 448px;
+    justify-content: space-between;
+}
+.section06Left img {
+    width: 80px;
+    height: 50px;
+}
+.section06Topic{
+    display: flex;
+}
+.topicRight {
+    width: 390px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}

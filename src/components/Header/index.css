@@ -1,0 +1,33 @@
+.containerHeader {
+    max-width: 1210px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 0;
+}
+div.headerLeft img{
+    width: 158px;
+}
+div.headerRight {
+    display: flex;
+}
+div.headerRight ul {
+    display: flex;
+    list-style-type: none;
+}
+div.headerRight li{
+    margin: 0 30px 0 0;
+    display: flex;
+    align-items: center;
+}
+div.headerRight li a:hover{
+    border-bottom: 1px #1A1A1A solid;
+}
+div.headerRight li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}

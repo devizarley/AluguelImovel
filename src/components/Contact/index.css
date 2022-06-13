@@ -1,0 +1,59 @@
+.containerSection09 {
+    padding: 140px 0;
+    max-width: 1025px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.containerSection09 h1 {
+    color: #2B2C32;
+    font-size: 48px;
+    width: 390px;
+    margin-bottom: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+.containerSection09 p, label {
+    font-family: 'Jost', sans-serif;
+    color: #2B2C32;
+    font-size: 14px;
+    filter: opacity(70%);
+    width: 290px;
+}
+
+::placeholder {
+    font-family: 'Jost', sans-serif;
+    filter: opacity(70%);
+    color: #2B2C32;
+}
+.section09Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input,
+textarea {
+    border: none;
+    background-color: #F1F1F1;
+    width: 425px;
+    outline: 0;
+
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 495px;
+    height: 50px;
+    background-color: #F1F1F1;
+    margin-bottom: 30px;
+}
+.input.M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.input.M textarea {
+    height: 65px;
+}

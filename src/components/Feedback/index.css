@@ -1,0 +1,41 @@
+.containerSection05 h1 {
+    color: #EAEAEA;
+    font-family: 'Krona One', sans-serif;
+    font-size: 48px;
+    height: 115px;
+    margin-bottom: 10px;
+}
+.containerSection05 h3 {
+    font-size: 16px;
+    color: #EAEAEA;
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 20px;
+}
+.containerSection05 p {
+    color: #EAEAEA;
+    font-size: 14px;
+    font-family: 'Jost';
+    filter: opacity(90%);
+}
+section.section05 {
+    background-color: #2B2C32;
+    padding: 140px;
+}
+.containerSection05 {
+    max-width: 1020px;
+    margin: auto;
+}
+.section05Bottom {
+    display: flex;
+}
+.bottom05 {
+    display: flex;
+    align-items: flex-start;
+}
+.bottom05 img{
+    margin-left: -45px;
+}
+.contents05 {
+    width: 290px;
+    margin-right: 125px;
+}

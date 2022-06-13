@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body.webApp {
+  background-color: #EAEAEA;
+}
+.containerSection01 {
+  max-width: 1080px;
+  margin: 60px auto 90px auto;
+  display: flex;
+}
+.sectionLeft {
+  width: 520px;
+  margin-top: 65px;
+}
+.sectionLeft h2{
+  font-size: 32px;
+  color: #2B2C32;
+  font-family: 'Krona One';
+}
+.sectionLeft h1{
+  color: #2B2C32;
+  font-size: 140px;
+  position: absolute;
+  font-family: 'Krona One';
+}
+.sectionLeft img{
+  margin-top: 275px;
+}
+.sectionLeft p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: 'Jost';
+  color: #2B2C32;
+  filter: opacity(80%);
+}
+.sectionRight {
+  margin-left: 3px;
+}
+.rightTop {
+  max-width: 555px;
+  display: flex;
+  align-items: flex-start;
+}
+.starSvg {
+  margin-left: -70px;
+  margin-top: -60px;
+}
+.rightBottom {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+.AiFillTwitterSquare {
+  width: 500px;
+}
+.twitter,
+.facebook
+{
+  width: 22px;
+  height: 22px;
+  margin-top: 15px;
+  margin-right: 40px;
+  filter: opacity(80%);
+}
+.instagram {
+  width: 22px;
+  height: 22px;
+  margin-top: 15px;
+  filter: opacity(70%);
+}
+
+/*SECTION03*/
+.containerSection03 {
+  max-width: 1125px;
+  margin: auto;
+  margin-bottom: 125px;
+}
+.containerSection03 header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.header03Left{
+  width: 290px;
+}
+.header03Left h2{
+  font-family: 'Krona One';
+  font-size: 48px;
+  color: #2B2C32;
+}
+.header03Right {
+  display: flex;
+  align-items: center;
+}
+.header03Right img{
+  margin-right: 25px;
+}
+.header03Right p{
+  width: 395px;
+  font-family: 'Jost';
+  font-size: 14px;
+  color: #2B2C32;
+  filter: opacity(80%);
+}
+
+.containerSection03 main {
+  display: flex;
+  margin-bottom: 85px;
+}
+.main03Left img{
+  height: 540px;
+}
+.main03Right {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.main03Right img{
+  margin-bottom: 25px;
+}
+
+.containerSection03 footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer03Left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 395px;
+  height: 240px;
+}
+.footer03Left h3{
+  font-family: 'Krona One';
+  font-size: 24px;
+  color: #2B2C32;
+}
+.footer03Left p{
+  font-family: 'Jost';
+  font-size: 14px;
+  color: #92A9C3;
+}
+.footer03Left h4{
+  font-family: 'Krona One';
+  font-size: 32px;
+  color: #92A9C3;
+}
+
+.footer03Right {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer03Right p{
+  width: 600px;
+  font-family: 'Jost';
+  font-size: 14px;
+  color: #2B2C32;
+  filter: opacity(80%);
+}
+
+.footer03Right button {
+  border: none;
+  background-color: #2B2C32;
+  color: white;
+  font-family: 'Krona One';
+  width: 255px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+section.section08 {
+  background-color: #2B2C32;
+}
+.containerSection08 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1025px;
+  margin: auto;
+  padding: 140px;
+}
+.containerSection08 img {
+  margin-bottom: 15px;
+}
+.containerSection08 h1 {
+  color: #EAEAEA;
+  font-size: 48px;
+  font-family: 'Krona One', sans-serif;
+  margin-bottom: 10px;
+}
+.containerSection08 p{
+  color: #eaeaeadc;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1,6px;
+}
+.section08Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left08Top {
+  width: 400px;
+  height: 145px;
+}
+.section08Right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 105px;
+}
+.right08Top {
+  margin-left: 25px;
+}
